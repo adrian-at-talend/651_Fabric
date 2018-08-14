@@ -15,6 +15,7 @@
   <specification xmi:id="_Vi94MZ-iEeigPOe4dQQxmA" objectType="Service"/>
   <specification xmi:id="_Vi94Mp-iEeigPOe4dQQxmA" admin="true" objectType="View">
     <instance xmi:id="_dX07oJ-iEeigPOe4dQQxmA" instanceName="Browse_items_ATest" writable="true"/>
+    <instance xmi:id="_11uN4J-iEeigPOe4dQQxmA" instanceName="Browse_items_ATester" writable="true"/>
   </specification>
   <specification xmi:id="_Vi94M5-iEeigPOe4dQQxmA" objectType="Routing Rule">
     <instance xmi:id="_Vi94NJ-iEeigPOe4dQQxmA" instanceName=".*">
