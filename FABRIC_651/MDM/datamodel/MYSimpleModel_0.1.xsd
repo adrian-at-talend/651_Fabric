@@ -1,5 +1,6 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<xsd:element name="ATest">
+<xsd:import namespace="http://www.w3.org/2001/XMLSchema"/>
+<xsd:element name="ATester">
 <xsd:annotation>
 <xsd:appinfo source="X_Write">Project_Admin</xsd:appinfo>
 </xsd:annotation>
@@ -32,7 +33,7 @@
 </xsd:element>
 </xsd:all>
 </xsd:complexType>
-<xsd:unique name="ATest">
+<xsd:unique name="ATester">
 <xsd:selector xpath="."/>
 <xsd:field xpath="ATestId"/>
 </xsd:unique>
