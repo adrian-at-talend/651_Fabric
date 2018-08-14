@@ -30,7 +30,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7kp-kEeigPOe4dQQxmA" label="Title" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7k5-kEeigPOe4dQQxmA" label="Firstname" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7lJ-kEeigPOe4dQQxmA" label="Lastname" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7lZ-kEeigPOe4dQQxmA" label="Startdate" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7lZ-kEeigPOe4dQQxmA" label="Startdate" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
     </ownedElement>
   </org.talend.cwm.xml:TdXmlSchema>
 </xmi:XMI>
