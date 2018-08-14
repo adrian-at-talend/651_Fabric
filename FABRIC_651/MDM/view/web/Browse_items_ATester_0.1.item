@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_1zc9AZ-iEeigPOe4dQQxmA" name="Browse_items_ATester" description="[EN:ATester]" transformerPK="">
+<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_1zc9AZ-iEeigPOe4dQQxmA" name="Browse_items_ATester" description="[EN:ATester]" timestamp="1534241901619" digestValue="7583e88d4d5cc2bbe2257734cb0e15c8" lastServerName="LocalMDM" transformerPK="">
   <searchableBusinessElements>ATester/ATestId</searchableBusinessElements>
   <searchableBusinessElements>ATester/Title</searchableBusinessElements>
   <searchableBusinessElements>ATester/Firstname</searchableBusinessElements>
