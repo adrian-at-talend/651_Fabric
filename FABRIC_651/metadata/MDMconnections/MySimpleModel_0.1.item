@@ -8,6 +8,14 @@
       <conceptTargets xmi:id="_fgpXY5-kEeigPOe4dQQxmA" targetName="Lastname" RelativeLoopExpression="Lastname"/>
       <conceptTargets xmi:id="_fgpXZJ-kEeigPOe4dQQxmA" targetName="Startdate" RelativeLoopExpression="Startdate"/>
     </schemas>
+    <schemas xmi:id="_gPjr0J-kEeigPOe4dQQxmA" label="ATesterOut" LoopLimit="50" conceptType="OUTPUT">
+      <root xmi:id="_iHjvQJ-kEeigPOe4dQQxmA" XMLPath="/ATester" RelatedColumn="" Attribute="main" Order="1" Type="id_String"/>
+      <root xmi:id="_iHjvQZ-kEeigPOe4dQQxmA" XMLPath="/ATester/Title" RelatedColumn="Title" Attribute="main" Order="3" Type="id_String"/>
+      <root xmi:id="_iHjvQp-kEeigPOe4dQQxmA" XMLPath="/ATester/Firstname" RelatedColumn="Firstname" Attribute="main" Order="4" Type="id_String"/>
+      <root xmi:id="_iHjvQ5-kEeigPOe4dQQxmA" XMLPath="/ATester/Lastname" RelatedColumn="Lastname" Attribute="main" Order="5" Type="id_String"/>
+      <root xmi:id="_iHjvRJ-kEeigPOe4dQQxmA" XMLPath="/ATester/Startdate" RelatedColumn="Startdate" Attribute="main" Order="6" Type="id_Date"/>
+      <loop xmi:id="_iHjvRZ-kEeigPOe4dQQxmA" XMLPath="/ATester/ATestId" RelatedColumn="ATestId" Attribute="main" Order="2" Type="id_String"/>
+    </schemas>
   </TalendMetadata:MDMConnection>
   <org.talend.cwm.xml:TdXmlSchema xmi:id="_fu4nsJ-kEeigPOe4dQQxmA" name="MYSimpleModel" dataManager="_Z8iOkJ-kEeigPOe4dQQxmA">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fu4nsZ-kEeigPOe4dQQxmA" id="_ftsU4J-kEeigPOe4dQQxmA" label="ATesterReceive">
@@ -16,6 +24,13 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fu4ntJ-kEeigPOe4dQQxmA" label="Firstname" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fu4ntZ-kEeigPOe4dQQxmA" label="Lastname" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fu4ntp-kEeigPOe4dQQxmA" label="Startdate" talendType="id_Date"/>
+    </ownedElement>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iVL7kJ-kEeigPOe4dQQxmA" id="_iHgr8J-kEeigPOe4dQQxmA" label="ATesterOut">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7kZ-kEeigPOe4dQQxmA" label="ATestId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7kp-kEeigPOe4dQQxmA" label="Title" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7k5-kEeigPOe4dQQxmA" label="Firstname" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7lJ-kEeigPOe4dQQxmA" label="Lastname" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iVL7lZ-kEeigPOe4dQQxmA" label="Startdate" talendType="id_Date"/>
     </ownedElement>
   </org.talend.cwm.xml:TdXmlSchema>
 </xmi:XMI>
