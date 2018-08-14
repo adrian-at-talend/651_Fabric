@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSTransformerV2E xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_Gvi1QZ-kEeigPOe4dQQxmA" name="Runnable_ATester" description="CreateNew">
+  <processSteps xmi:id="_Gvi1Qp-kEeigPOe4dQQxmA" pluginJNDI="amalto/local/transformer/plugin/xslt" description="UpdateReport" parameters="&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;  xmlns:mdm=&quot;java:com.amalto.core.plugin.base.xslt.MdmExtension&quot; version=&quot;1.0&quot;> &lt;xsl:output method=&quot;xml&quot; indent=&quot;yes&quot; omit-xml-declaration=&quot;yes&quot; /> &lt;xsl:template match=&quot;/&quot; priority=&quot;1&quot;>&#xA;&lt;exchange> &lt;report>&#xA; &lt;xsl:copy-of select=&quot;Update&quot;/> &lt;/report>  &lt;item>&lt;xsl:copy-of select='mdm:getItemProjection(Update/RevisionID,Update/DataCluster,Update/Concept,Update/Key)'/>&lt;/item>&lt;/exchange> &lt;/xsl:template> &lt;/xsl:stylesheet>&#xA;">
+    <inputMappings xmi:id="_Gvi1Q5-kEeigPOe4dQQxmA" pipelineVariable="_DEFAULT_" pluginVariable="xml"/>
+    <outputMappings xmi:id="_Gvi1RJ-kEeigPOe4dQQxmA" pipelineVariable="item_xml" pluginVariable="text"/>
+  </processSteps>
+  <processSteps xmi:id="_Gvi1RZ-kEeigPOe4dQQxmA" pluginJNDI="amalto/local/transformer/plugin/codec" description="Escape the item XML" parameters="&lt;parameters>&#xA;&lt;method>DECODE&lt;/method>&#xA;&lt;algorithm>XMLESCAPE&lt;/algorithm>&#xA;&lt;/parameters>&#xA;">
+    <inputMappings xmi:id="_Gvi1Rp-kEeigPOe4dQQxmA" pipelineVariable="item_xml" pluginVariable="law_text"/>
+    <outputMappings xmi:id="_Gvi1R5-kEeigPOe4dQQxmA" pipelineVariable="decode_xml" pluginVariable="codec_text"/>
+  </processSteps>
+  <processSteps xmi:id="_Gvi1SJ-kEeigPOe4dQQxmA" pluginJNDI="amalto/local/transformer/plugin/callJob" description="Call Job" parameters="&lt;configuration>&lt;url>ltj://Runnable_ATester/0.1&lt;/url>&lt;contextParam>&lt;name>xmlInput&lt;/name>&lt;value>{decode_xml}&lt;/value>&lt;/contextParam>&lt;/configuration>">
+    <inputMappings xmi:id="_Gvi1SZ-kEeigPOe4dQQxmA" pipelineVariable="decode_xml" pluginVariable="text"/>
+    <outputMappings xmi:id="_Gvi1Sp-kEeigPOe4dQQxmA" pipelineVariable="output" pluginVariable="result"/>
+  </processSteps>
+</mdmserverobject:WSTransformerV2E>
