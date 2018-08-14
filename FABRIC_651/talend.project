@@ -103,8 +103,6 @@
       <relatedItems xmi:id="_G5pzj5-kEeigPOe4dQQxmA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_G5pzkJ-kEeigPOe4dQQxmA" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_G5pzkZ-kEeigPOe4dQQxmA" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_qB-EQJ-oEeigPOe4dQQxmA" id="_Z8X2gJ-kEeigPOe4dQQxmA" version="Latest" type="property"/>
-      <relatedItems xmi:id="_qB-EQZ-oEeigPOe4dQQxmA" id="_Z8X2gJ-kEeigPOe4dQQxmA - ATesterReceive" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_sc0OsJ-rEeigPOe4dQQxmA">
       <baseItem xmi:id="_sc0OsZ-rEeigPOe4dQQxmA" id="_sXwIgJ-rEeigPOe4dQQxmA" version="0.1" type="job"/>
