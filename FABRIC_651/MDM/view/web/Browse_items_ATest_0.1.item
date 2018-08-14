@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_dWHrcZ-iEeigPOe4dQQxmA" name="Browse_items_ATest" description="[EN:ATest]" transformerPK="">
+  <searchableBusinessElements>ATest/ATestId</searchableBusinessElements>
+  <searchableBusinessElements>ATest/Title</searchableBusinessElements>
+  <searchableBusinessElements>ATest/Firstname</searchableBusinessElements>
+  <searchableBusinessElements>ATest/Lastname</searchableBusinessElements>
+  <searchableBusinessElements>ATest/Startdate</searchableBusinessElements>
+  <viewableBusinessElements>ATest/ATestId</viewableBusinessElements>
+  <viewableBusinessElements>ATest/Title</viewableBusinessElements>
+  <viewableBusinessElements>ATest/Firstname</viewableBusinessElements>
+  <viewableBusinessElements>ATest/Lastname</viewableBusinessElements>
+  <viewableBusinessElements>ATest/Startdate</viewableBusinessElements>
+  <isTransformerActive xmi:id="_dWHrcp-iEeigPOe4dQQxmA"/>
+</mdmserverobject:WSViewE>
